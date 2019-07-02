@@ -56,14 +56,6 @@ module.exports = {
         }
       },
       {
-        test: /\.hbs$/,
-        use: ['handlebars-loader']
-      },
-      {
-        test: /font-awesome\.config\.js/,
-        use: [{ loader: 'style-loader' }, { loader: 'font-awesome-loader' }]
-      },
-      {
         test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
         use: [
           {

@@ -42,10 +42,6 @@ module.exports = {
             plugins: ['transform-class-properties']
           }
         }
-      },
-      {
-        test: /font-awesome\.config\.js/,
-        use: [{ loader: 'style-loader' }, { loader: 'font-awesome-loader' }]
       }
     ]
   },
