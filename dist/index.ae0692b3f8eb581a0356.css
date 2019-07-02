@@ -186,7 +186,7 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-/* .cd-section {
+.cd-section {
   min-height: 100%;
   position: relative;
   padding: 2em 0;
@@ -254,8 +254,8 @@ Main components
   bottom: 20px;
   width: 38px;
   height: 44px;
-  background: url('../img/cd-arrow-bottom.svg') no-repeat center center;
-} */
+  background: url(fonts/cd-arrow-bottom.svg) no-repeat center center;
+}
 
 /* No Touch devices */
 .cd-nav-trigger {
@@ -477,3 +477,26 @@ Main components
     bottom: 40px;
   }
 }
+
+html {
+  overflow: scroll;
+  overflow-x: hidden; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */ }
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000; }
+
+.logo {
+  z-index: 5;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  color: #eece1a;
+  background: url(985635a4e1cc4e70d2677f0828d8c0af.png) no-repeat center; }
+

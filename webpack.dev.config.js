@@ -21,7 +21,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|svg)$/,
+        test: /\.(png|jpe?g|svg)$/,
         use: ['file-loader']
       },
       {
@@ -30,16 +30,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [
-          'style-loader',
-          { loader: 'css-loader' },
-          {
-            loader: 'sass-loader',
-            options: {
-              includePaths: [require('bourbon').includePaths]
-            }
-          }
-        ]
+        use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
         test: /\.(js|jsx)$/,
@@ -55,18 +46,6 @@ module.exports = {
       {
         test: /font-awesome\.config\.js/,
         use: [{ loader: 'style-loader' }, { loader: 'font-awesome-loader' }]
-      },
-      {
-        test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'fonts/'
-            }
-          }
-        ]
       }
     ]
   },
