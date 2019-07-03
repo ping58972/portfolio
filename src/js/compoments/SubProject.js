@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 // import { Card, Icon } from 'semantic-ui-react';
 
 // import 'semantic-ui/dist/semantic.min.css';
@@ -7,21 +7,31 @@ import { Card, Button } from 'react-bootstrap';
 
 // import React from 'react';
 // // import { Button } from 'semantic-ui-react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-const CardExampleGroups = () => {
+const ProjectCard = () => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant='top' src='./img/Ping.jpg' />
+    <Card style={{ width: '100%', height: '100%', backgroundColor: '#3e3947' }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title style={{ color: 'white' }}>Card Title</Card.Title>
+        <Card.Subtitle className='mb-2 text-muted'>Card Subtitle</Card.Subtitle>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo dolor
+          ad, culpa repellat maiores officiis assumenda consequuntur cum
+          cupiditate sapiente quos voluptates exercitationem libero tempora,
+          natus animi. Possimusentium aperiam sequi eius, reiciendis porro, ex
+          dicta molestiae vitae voluptatum aliquam ea fugit mollitia? Culpa
+          mollitia rem saepe temporibus. Provident, expedita. Inventore, vitae
+          dolores, faci.
         </Card.Text>
-        <Button variant='primary'>Go somewhere</Button>
+        <Card.Link href='#'>
+          <i class='fab fa-github fa-2x' />
+        </Card.Link>
+
+        <Card.Link href='#'>
+          <i class='fab fa-linkedin-in fa-2x' />
+        </Card.Link>
       </Card.Body>
     </Card>
   );
 };
 
-export default CardExampleGroups;
+export default ProjectCard;
