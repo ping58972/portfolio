@@ -21,7 +21,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|svg)$/,
+        test: /\.(png|jpe?g)$/,
         use: ['file-loader']
       },
       {
@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        exclude: [/node_modules\/(?!(swiper|dom7)\/).*/, /\.test\.js(x)?$/],
         use: {
           loader: 'babel-loader',
           options: {
@@ -42,6 +42,18 @@ module.exports = {
             plugins: ['transform-class-properties']
           }
         }
+      },
+      {
+        test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
       }
     ]
   },
