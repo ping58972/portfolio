@@ -6,19 +6,19 @@ import ooh from '../../img/Untitled.png';
 import evg from '../../img/evg.jpg';
 import pingLogo from '../../img/image.png';
 
-const MianProject = () => {
+const ClientProject = () => {
   const params = {
-    effect: 'coverflow',
+    // effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 5,
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true
-    },
+    // coverflowEffect: {
+    //   rotate: 50,
+    //   stretch: 0,
+    //   depth: 100,
+    //   modifier: 1,
+    //   slideShadows: true
+    // },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -106,4 +106,4 @@ const MianProject = () => {
   );
 };
 
-export default MianProject;
+export default ClientProject;

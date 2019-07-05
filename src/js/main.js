@@ -12,10 +12,13 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import MianProject from './compoments/MainProject';
-import ProjectCard from './compoments/SubProject';
+import ClientProject from './compoments/ClientProject';
 
 library.add(faTwitter, faLinkedinIn, faGithub);
 dom.watch();
 
 ReactDOM.render(<MianProject />, document.querySelector('#main-project'));
-ReactDOM.render(<ProjectCard />, document.querySelector('#sub-project'));
+ReactDOM.render(<ClientProject />, document.querySelector('#client-project'));
+ReactDOM.render(<ClientProject />, document.querySelector('#server-project'));
+ReactDOM.render(<ClientProject />, document.querySelector('#mobile-project'));
+ReactDOM.render(<ClientProject />, document.querySelector('#college-project'));

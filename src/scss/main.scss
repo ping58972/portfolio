@@ -208,8 +208,8 @@ Main components
   }
   .swiper-container {
     width: 100%;
-    padding-top: 7px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
   }
   .swiper-pagination-bullet {
     width: 20px;
@@ -233,18 +233,29 @@ Main components
     padding-top: 0px;
     padding-bottom: 10px;
   }
-  .images {
-    background-image: url('../img/Ping.jpg');
-    background-repeat: no-repeat;
-    position: center;
-    left: 50%;
-    right: auto;
-    // -webkit-transform: translateX(-50%);
-    // -moz-transform: translateX(-50%);
-    // -ms-transform: translateX(-50%);
-    // -o-transform: translateX(-50%);
-    // transform: translateX(-50%);
-    width: 100%;
-    height: 250px;
+  .imageBox {
+    z-index: 0;
+    width: auto;
+    height: 15rem;
+    background-color: #fff;
+
+    .images {
+      background-repeat: no-repeat;
+      position: center;
+      // background-size: 100% auto;
+      left: 50%;
+      right: auto;
+      background-color: #fff;
+      background-position: center;
+
+      // -webkit-transform: translateX(-50%);
+      // -moz-transform: translateX(-50%);
+      // -ms-transform: translateX(-50%);
+      // -o-transform: translateX(-50%);
+      // transform: translateX(-50%);
+      width: auto;
+      height: 15rem;
+      // background-color: #ff0000;
+    }
   }
 }
