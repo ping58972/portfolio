@@ -68,6 +68,7 @@ const MianProject = () => {
               subtitle='subsdjf'
               text='&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
               image={pingImage}
+              bgColor='#3e3947'
             />
           </div>
           <div className='swiper-slide'>

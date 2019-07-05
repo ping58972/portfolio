@@ -4,12 +4,14 @@ import { Card } from 'react-bootstrap';
 
 // import 'semantic-ui/dist/semantic.min.css';
 // import 'semantic-ui-css/semantic.min.css';
-
+// backgroundColor: '#3e3947'
 // import React from 'react';
 // // import { Button } from 'semantic-ui-react';
 const ProjectCard = props => {
   return (
-    <Card style={{ width: '100%', height: '100%', backgroundColor: '#3e3947' }}>
+    <Card
+      style={{ width: '100%', height: '100%', backgroundColor: props.bgColor }}
+    >
       <Card.Header>
         {<Card.Title style={{ color: 'white' }}>{props.title}</Card.Title>}
         {
