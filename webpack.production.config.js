@@ -27,8 +27,25 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g)$/,
-        use: ['file-loader']
+        test: /\.(jpg|png|gif|svg)$/,
+        loader: 'image-webpack-loader',
+        // Specify enforce: 'pre' to apply the loader
+        // before url-loader/svg-url-loader
+        // and not duplicate it in rules with them
+        enforce: 'pre'
+      },
+
+      {
+        test: /\.(png|jpe?g|gif|psd|pdf|eps|ai|indd|raw)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/'
+            }
+          }
+        ]
       },
       {
         test: /\.css$/,
