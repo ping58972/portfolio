@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.production.config.js",
     "start": "webpack-dev-server --open --config webpack.dev.config.js --hot",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
