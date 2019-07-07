@@ -10,21 +10,24 @@ import { Card } from 'react-bootstrap';
 const ProjectCard = props => {
   return (
     <Card
-      style={{ width: '100%', height: '100%', backgroundColor: props.bgColor }}
+      style={{
+        width: '100%',
+        height: '100%',
+        backgroundColor: props.bgColor,
+        fontFamily: '"Ubuntu", sans-serif'
+      }}
     >
       <Card.Header>
-        {<Card.Title style={{ color: 'white' }}>{props.title}</Card.Title>}
-        {
-          <Card.Subtitle className='mb-2 text-muted'>
-            {props.subtitle}
-          </Card.Subtitle>
-        }
+        <Card.Title style={{ color: 'white' }}>{props.title}</Card.Title>
       </Card.Header>
       <div className='imageBox'>
         <Card.Img variant='top' src={props.image} className='images' />
       </div>
       {/* className='images'  */}
       <Card.Body>
+        <Card.Subtitle className='mb-2 text-muted'>
+          <span>{props.subtitle}</span>
+        </Card.Subtitle>
         <Card.Text style={{ paddingBottom: '0px' }}>{props.text}</Card.Text>
         {/* <p>props.text</p> */}
       </Card.Body>

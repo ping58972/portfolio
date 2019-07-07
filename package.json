@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://ping58972.github.io/portfolio",
   "scripts": {
     "build": "webpack --config webpack.production.config.js",
-    "start": "webpack-dev-server --open --config webpack.dev.config.js --hot"
+    "start": "webpack-dev-server --open --config webpack.dev.config.js --hot",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +33,7 @@
     "expose-loader": "^0.7.5",
     "file-loader": "^4.0.0",
     "fontmin-webpack": "^2.0.4",
+    "github-pages": "^3.0.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "imagemin-webpack-plugin": "^2.4.2",
