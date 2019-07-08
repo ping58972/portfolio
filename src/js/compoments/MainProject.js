@@ -4,7 +4,7 @@ import ProjectCard from './SubProject';
 import pingImage from '../../img/Ping.jpg';
 import ooh from '../../img/Untitled.png';
 import evg from '../../img/evg.jpg';
-import pingLogo from '../../img/image.png';
+import shopImage from '../../img/shop1.png';
 
 const MianProject = () => {
   const params = {
@@ -64,11 +64,14 @@ const MianProject = () => {
         <Swiper {...params}>
           <div className='swiper-slide'>
             <ProjectCard
-              title='Projexttss'
-              subtitle='subsdjf'
-              text='&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={pingImage}
+              title='Shop and Sell Website'
+              subtitle='| Node | Express |MongoDB |'
+              text='&ldquo;Features: creating own product for selling or looking buy some products.
+              processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;'
+              image={shopImage}
               bgColor='#3e3947'
+              githubUrl='https://github.com/ping58972/node-deploy-shopping-server'
+              projectUrl='https://node-deploy-shopping-server.herokuapp.com'
             />
           </div>
           <div className='swiper-slide'>
@@ -92,7 +95,8 @@ const MianProject = () => {
               title='Projexttss'
               subtitle='subsdjf'
               text='&ldquo;Lorem ipsum dolor sit amet, consectetur loonsepisum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={pingLogo}
+              image={null}
+              githubUrl='https://github.com/ping58972/node-deploy-shopping-server'
             />
           </div>
           <div className='swiper-slide'>

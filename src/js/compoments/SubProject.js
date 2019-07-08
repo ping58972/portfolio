@@ -26,17 +26,25 @@ const ProjectCard = props => {
       {/* className='images'  */}
       <Card.Body>
         <Card.Subtitle className='mb-2 text-muted'>
-          <span>{props.subtitle}</span>
+          <span style={{ paddingBottom: '0px', fontSize: '14px' }}>
+            {props.subtitle}
+          </span>
         </Card.Subtitle>
-        <Card.Text style={{ paddingBottom: '0px' }}>{props.text}</Card.Text>
+        <Card.Text style={{ paddingBottom: '0px', fontSize: '14px' }}>
+          {props.text}
+        </Card.Text>
         {/* <p>props.text</p> */}
       </Card.Body>
       <Card.Footer>
-        <Card.Link href='https://ping58972.com'>
-          <i class='fab fa-github fa-2x' />
+        <Card.Link href={props.githubUrl} target='_blank'>
+          <i className='fab fa-github fa-2x' />
         </Card.Link>
-        <Card.Link href='#'>
-          <i class='fab fa-linkedin-in fa-2x' />
+        {/* <Card.Link href={props.projectUrl} target='_blank'>
+            <i className='far fa-eye fa-2x' />
+          </Card.Link> */}
+
+        <Card.Link href={props.projectUrl} target='_blank'>
+          {props.projectUrl ? <i className='far fa-eye fa-2x' /> : null}
         </Card.Link>
       </Card.Footer>
     </Card>
