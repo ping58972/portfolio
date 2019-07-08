@@ -10,12 +10,12 @@ import {
   faGithub,
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
-import { faEye } from '@fortawesome/free-regular-svg-icons';
+import { faEye, faFilePdf } from '@fortawesome/free-regular-svg-icons';
 
 import MianProject from './compoments/MainProject';
 import ClientProject from './compoments/ClientProject';
 
-library.add(faTwitter, faLinkedinIn, faGithub, faEye);
+library.add(faTwitter, faLinkedinIn, faGithub, faEye, faFilePdf);
 dom.watch();
 
 ReactDOM.render(<MianProject />, document.querySelector('#main-project'));
