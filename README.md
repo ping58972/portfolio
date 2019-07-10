@@ -12,7 +12,7 @@ The purpose of website is for looking jobs about software engineering, web devel
 - [Javascript](#) - Used to implement MongoDB.
 - [JQuery](#) - Used Cloud Database of MongoDB Atlas.
 - [React](#) - Used for sending Email.
-- [Swiper](http://idangero.us/swiper/get-started) Used for generating PDF file for orders.
+- [Swiper](http://idangero.us/swiper/get-started) Used for displaying the project's carts.
 - More detail... see package.json
 
 ## Getting Started
