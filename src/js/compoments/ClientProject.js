@@ -1,24 +1,16 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import ProjectCard from './SubProject';
+import SlideDisplay from './SlideDisplay';
 import pingImage from '../../img/Ping.jpg';
 import ooh from '../../img/Untitled.png';
 import evg from '../../img/evg.jpg';
 import pingLogo from '../../img/image.png';
 
 const ClientProject = () => {
-  const params = {
-    // effect: 'coverflow',
+  const paramsSlide = {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 5,
-    // coverflowEffect: {
-    //   rotate: 50,
-    //   stretch: 0,
-    //   depth: 100,
-    //   modifier: 1,
-    //   slideShadows: true
-    // },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -57,53 +49,60 @@ const ClientProject = () => {
       }
     }
   };
+  const projects = [
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+      image: pingImage,
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    },
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+      image: ooh,
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    },
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+      image: ooh,
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    },
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+      image: ooh,
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    },
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+      image: ooh,
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    }
+  ];
 
   return (
-    <div className='swiper-container'>
-      <div className='swiper-wrapper'>
-        <Swiper {...params}>
-          <div className='swiper-slide'>
-            <ProjectCard
-              title='Projexttss'
-              subtitle='subsdjf'
-              text='&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={pingImage}
-              bgColor='#745360'
-            />
-          </div>
-          <div className='swiper-slide'>
-            <ProjectCard
-              title='Projexttss'
-              subtitle='subsdjf'
-              text='&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={ooh}
-            />
-          </div>
-          <div className='swiper-slide'>
-            <ProjectCard
-              title='Projexttss'
-              subtitle='subsdjf'
-              text='&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={evg}
-            />
-          </div>
-          <div className='swiper-slide'>
-            <ProjectCard
-              title='Projexttss'
-              subtitle='subsdjf'
-              text='&ldquo;Lorem ipsum dolor sit amet, consectetur loonsepisum dolor sit amet, consectetur adipisicing elit. Architectoenetur, id cum.&rdquo;'
-              image={pingLogo}
-            />
-          </div>
-          <div className='swiper-slide'>
-            <ProjectCard />
-          </div>
-          <div className='swiper-slide'>
-            <ProjectCard />
-          </div>
-        </Swiper>
-      </div>
-    </div>
+    <SlideDisplay
+      params={paramsSlide}
+      projectArray={projects}
+      bgColor='#745360'
+    />
   );
 };
 

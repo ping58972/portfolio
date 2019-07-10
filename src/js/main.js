@@ -14,12 +14,15 @@ import { faEye, faFilePdf } from '@fortawesome/free-regular-svg-icons';
 
 import MianProject from './compoments/MainProject';
 import ClientProject from './compoments/ClientProject';
+import ServerProject from './compoments/ServerProject';
+import MobileProject from './compoments/MobileProject';
+import CollegeProject from './compoments/CollegeProject';
 
 library.add(faTwitter, faLinkedinIn, faGithub, faEye, faFilePdf);
 dom.watch();
 
 ReactDOM.render(<MianProject />, document.querySelector('#main-project'));
 ReactDOM.render(<ClientProject />, document.querySelector('#client-project'));
-ReactDOM.render(<ClientProject />, document.querySelector('#server-project'));
-ReactDOM.render(<ClientProject />, document.querySelector('#mobile-project'));
-ReactDOM.render(<ClientProject />, document.querySelector('#college-project'));
+ReactDOM.render(<ServerProject />, document.querySelector('#server-project'));
+ReactDOM.render(<MobileProject />, document.querySelector('#mobile-project'));
+ReactDOM.render(<CollegeProject />, document.querySelector('#college-project'));

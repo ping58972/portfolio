@@ -20,10 +20,12 @@ const ProjectCard = props => {
       <Card.Header>
         <Card.Title style={{ color: 'white' }}>{props.title}</Card.Title>
       </Card.Header>
-      <div className='imageBox'>
-        <Card.Img variant='top' src={props.image} className='images' />
-      </div>
-      {/* className='images'  */}
+      {props.image ? (
+        <div className='imageBox'>
+          <Card.Img variant='top' src={props.image} className='images' />
+        </div>
+      ) : null}
+
       <Card.Body>
         <Card.Subtitle className='mb-2 text-muted'>
           <span style={{ paddingBottom: '0px', fontSize: '14px' }}>
