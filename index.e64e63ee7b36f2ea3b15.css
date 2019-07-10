@@ -1110,7 +1110,8 @@ Main components
         transition: all 0.5s ease-out; }
   .cd-section .intro .small-size {
     font-size: 1rem;
-    top: 0px; }
+    top: 0px;
+    padding-bottom: 0px; }
   .cd-section .intro .font-left {
     text-align: left;
     padding-left: 10rem; }
