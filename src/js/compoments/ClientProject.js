@@ -1,10 +1,6 @@
 import React from 'react';
-import Swiper from 'react-id-swiper';
 import SlideDisplay from './SlideDisplay';
-import pingImage from '../../img/Ping.jpg';
 import ooh from '../../img/Untitled.png';
-import evg from '../../img/evg.jpg';
-import pingLogo from '../../img/image.png';
 
 const ClientProject = () => {
   const paramsSlide = {
@@ -51,49 +47,39 @@ const ClientProject = () => {
   };
   const projects = [
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'My Portfolio',
+      subtitle: '| HTML5 | SASS | Webpack | React | JQuery | swiper |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: pingImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'The purpose of website is for looking jobs about software engineering, web developer, and programmer. The website include: showing my resume, side projects and skill, etc.',
+      image: require('../../img/portfolio.png'),
+      githubUrl: 'https://github.com/ping58972/portfolio',
+      projectUrl: 'https://ping58972.github.io/portfolio'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Portfolio Response Website',
+      subtitle: '| HTML | SASS | Javascript | swiper | Xd | Ps | Ai | ',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
+      image: require('../../img/ResponseWeb.png'),
+      githubUrl: 'https://github.com/ping58972/myportfolio',
+      projectUrl: 'https://ping58972.github.io/myportfolio/'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Modern Response Website',
+      subtitle: '| HTML5 | SASS | Javascript |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
+      image: require('../../img/responseWeb_Tra.png'),
+      githubUrl: 'https://github.com/ping58972/practice-web-response',
+      projectUrl: 'https://ping58972.github.io/practice-web-response/'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Bicycle Website',
+      subtitle: '| HTML5 | CSS |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
+      image: require('../../img/bycicle.png'),
+      githubUrl: 'https://github.com/ping58972/responseweb-bicycle'
     }
   ];
 

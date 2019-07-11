@@ -1,10 +1,7 @@
 import React from 'react';
-import Swiper from 'react-id-swiper';
 import SlideDisplay from './SlideDisplay';
 import pingImage from '../../img/Ping.jpg';
 import ooh from '../../img/Untitled.png';
-import evg from '../../img/evg.jpg';
-import pingLogo from '../../img/image.png';
 
 const MobileProject = () => {
   const paramsSlide = {

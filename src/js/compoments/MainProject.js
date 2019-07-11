@@ -1,7 +1,5 @@
 import React from 'react';
-import Swiper from 'react-id-swiper';
 import SlideDisplay from './SlideDisplay';
-import pingImage from '../../img/Ping.jpg';
 import ooh from '../../img/Untitled.png';
 import evg from '../../img/evg.jpg';
 import shopImage from '../../img/shop1.png';
@@ -62,7 +60,7 @@ const MianProject = () => {
       title: 'Shop and Sell Website',
       subtitle: '| Node | Express | MongoDB |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
+        'Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.',
       image: shopImage,
       githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
       projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'

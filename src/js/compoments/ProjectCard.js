@@ -1,12 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-// import { Card, Icon } from 'semantic-ui-react';
 
-// import 'semantic-ui/dist/semantic.min.css';
-// import 'semantic-ui-css/semantic.min.css';
-// backgroundColor: '#3e3947'
-// import React from 'react';
-// // import { Button } from 'semantic-ui-react';
 const ProjectCard = props => {
   return (
     <Card
@@ -35,15 +29,11 @@ const ProjectCard = props => {
         <Card.Text style={{ paddingBottom: '0px', fontSize: '14px' }}>
           {props.text}
         </Card.Text>
-        {/* <p>props.text</p> */}
       </Card.Body>
       <Card.Footer>
         <Card.Link href={props.githubUrl} target='_blank'>
           <i className='fab fa-github fa-2x' />
         </Card.Link>
-        {/* <Card.Link href={props.projectUrl} target='_blank'>
-            <i className='far fa-eye fa-2x' />
-          </Card.Link> */}
 
         <Card.Link href={props.projectUrl} target='_blank'>
           {props.projectUrl ? <i className='far fa-eye fa-2x' /> : null}

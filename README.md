@@ -1,6 +1,6 @@
 # My Portfolio
 
-<a href="https://ping58972.com"><img src="https://a.imge.to/2019/07/10/TtSxw.png" alt="my portfolio"></a>
+<a href="https://ping58972.com"><img src="https://a.imge.to/2019/07/10/TtSxw.png" target="_blank" alt="my portfolio"></a>
 
 The purpose of website is for looking jobs about software engineering, web developer, and programmer. The website features include: showing my resume, side projects and my skill, etc.
 
