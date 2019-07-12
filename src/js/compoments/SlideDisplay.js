@@ -17,6 +17,7 @@ const SlideDisplay = props => {
                   image={project.image}
                   bgColor={props.bgColor}
                   githubUrl={project.githubUrl}
+                  serverUrl={project.serverUrl}
                   projectUrl={project.projectUrl}
                 />
               </div>

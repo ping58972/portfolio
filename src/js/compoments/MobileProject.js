@@ -48,49 +48,8 @@ const MobileProject = () => {
   };
   const projects = [
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: pingImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+      title: 'Coming Soon',
+      text: 'Coming Soon'
     }
   ];
 

@@ -61,64 +61,26 @@ const MianProject = () => {
       subtitle: '| Node | Express | MongoDB |',
       text:
         'Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.',
-      image: shopImage,
+      image: require('../../img/shop1.png'),
       githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
       projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Post Message APP',
+      subtitle: '| React | Socket | Node | Express | MongoDB |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'This project is the single page that build by React and fetch all data by web server  using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai',
+      image: require('../../img/messageNode.png'),
+      githubUrl:
+        'https://github.com/ping58972/react-restful-api-basic-socket-io',
+      serverUrl:
+        'https://github.com/ping58972/testing-node-rest-api-mocha-chai',
+      projectUrl:
+        'https://ping58972.github.io/react-restful-api-basic-socket-io'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: evg,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: null,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: null
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: shopImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: shopImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: shopImage,
-      bgColor: '#3e3947',
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+      title: 'Coming Soon',
+      text: 'Coming Soon'
     }
   ];
   return (

@@ -34,7 +34,9 @@ const ProjectCard = props => {
         <Card.Link href={props.githubUrl} target='_blank'>
           <i className='fab fa-github fa-2x' />
         </Card.Link>
-
+        <Card.Link href={props.serverUrl} target='_blank'>
+          {props.serverUrl ? <i className='fas fa-server fa-2x' /> : null}
+        </Card.Link>
         <Card.Link href={props.projectUrl} target='_blank'>
           {props.projectUrl ? <i className='far fa-eye fa-2x' /> : null}
         </Card.Link>

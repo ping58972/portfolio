@@ -11,6 +11,7 @@ import {
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
 import { faEye, faFilePdf } from '@fortawesome/free-regular-svg-icons';
+import { faServer } from '@fortawesome/free-solid-svg-icons';
 
 import MianProject from './compoments/MainProject';
 import ClientProject from './compoments/ClientProject';
@@ -18,7 +19,7 @@ import ServerProject from './compoments/ServerProject';
 import MobileProject from './compoments/MobileProject';
 import CollegeProject from './compoments/CollegeProject';
 
-library.add(faTwitter, faLinkedinIn, faGithub, faEye, faFilePdf);
+library.add(faTwitter, faLinkedinIn, faGithub, faEye, faFilePdf, faServer);
 dom.watch();
 
 ReactDOM.render(<MianProject />, document.querySelector('#main-project'));

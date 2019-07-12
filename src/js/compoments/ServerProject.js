@@ -48,49 +48,22 @@ const ServerProject = () => {
   };
   const projects = [
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Message Post Restful api',
+      subtitle: '| Node | Express | MongoDB | Socket | Mocha&Chai |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: pingImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'his project is used for Restful api with Expressjs and using cloud' +
+        ' database MongoDB Atlas. The api features: CRUD for Message Post website.' +
+        ' The website can process with authentication, validation, up&download Images, testing with Mocha & Chai, etc.',
+      githubUrl: 'https://github.com/ping58972/testing-node-rest-api-mocha-chai'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Message Post Restful api',
+      subtitle: '| Node | Express | MongoDB | Socket | Mocha&Chai |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
-    },
-    {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
-      text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'his project is used for Restful api with Expressjs and using cloud' +
+        ' database MongoDB Atlas. The api features: CRUD for Message Post website.' +
+        ' The website can process with authentication, validation, up&download Images, testing with Mocha & Chai, etc.',
+      githubUrl: 'https://github.com/ping58972/testing-node-rest-api-mocha-chai'
     }
   ];
 
