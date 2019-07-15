@@ -30,15 +30,34 @@ const ProjectCard = props => {
           {props.text}
         </Card.Text>
       </Card.Body>
-      <Card.Footer>
+      <Card.Footer
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-evenly',
+          alignItems: 'center'
+        }}
+      >
         <Card.Link href={props.githubUrl} target='_blank'>
-          <i className='fab fa-github fa-2x' />
+          {props.githubUrl ? (
+            <>
+              <i className='fab fa-github fa-2x' /> <div>Client Repos</div>
+            </>
+          ) : null}
         </Card.Link>
         <Card.Link href={props.serverUrl} target='_blank'>
-          {props.serverUrl ? <i className='fas fa-server fa-2x' /> : null}
+          {props.serverUrl ? (
+            <>
+              <i className='fas fa-server fa-2x' /> <div>Sever Repos</div>
+            </>
+          ) : null}
         </Card.Link>
         <Card.Link href={props.projectUrl} target='_blank'>
-          {props.projectUrl ? <i className='far fa-eye fa-2x' /> : null}
+          {props.projectUrl ? (
+            <>
+              <i className='far fa-eye fa-2x' /> <div>Website</div>
+            </>
+          ) : null}
         </Card.Link>
       </Card.Footer>
     </Card>
