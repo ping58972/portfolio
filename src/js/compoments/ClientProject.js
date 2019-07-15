@@ -52,6 +52,14 @@ const ClientProject = () => {
   };
   const projects = [
     {
+      title: 'My Stream Video',
+      subtitle: '| React | Redux | json-server | node-media-server |',
+      text:
+        'The purpose of website is for practicing React and stream api by CRUD. The website features include: creating own stream video for living stream. And can process with authentication, validation, etc.',
+      image: require('../../img/streamAll.png'),
+      githubUrl: 'https://github.com/ping58972/my-stream-react-redux'
+    },
+    {
       title: 'Search Videos On Youtube Api',
       subtitle: '| React | axios |',
       text:
@@ -111,7 +119,7 @@ const ClientProject = () => {
     },
     {
       title: 'My Portfolio',
-      subtitle: '| HTML5 | SASS | Webpack | React | JQuery | swiper |',
+      subtitle: '| HTML | SASS | Webpack | React | JQuery | swiper |',
       text:
         'The purpose of website is for looking jobs about software engineering, web developer, and programmer. The website include: showing my resume, side projects and skill, etc.',
       image: require('../../img/portfolio.png'),
