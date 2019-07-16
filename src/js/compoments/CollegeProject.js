@@ -1,7 +1,5 @@
 import React from 'react';
 import SlideDisplay from './SlideDisplay';
-import pingImage from '../../img/Ping.jpg';
-import ooh from '../../img/Untitled.png';
 
 const CollegeProject = () => {
   const paramsSlide = {
@@ -48,49 +46,66 @@ const CollegeProject = () => {
   };
   const projects = [
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Bank Account GUI',
+      subtitle: '| OOP | Java | Java-Swing | Eclipse |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: pingImage,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'These Assignments is from OOP programming course, that try to simulate bank account GUI and implements by Java language, etc.',
+      image: require('../../img/oop-final-login.png'),
+      githubUrl: 'https://github.com/ping58972/Java-OOP-BankAccount'
+    },
+
+    {
+      title: 'Recursion with Java OOP',
+      subtitle: '| OOP | Java | Data Structure and Algorithm |',
+      image: require('../../img/recursion.png'),
+      text:
+        'These Assignments is from Data Structure and Algorithm course, to implement Recursion with OOP  by Java language, etc.',
+      githubUrl: 'https://github.com/ping58972/CSCI2082_PA4'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Simple Parser Linked Stack',
+      subtitle: '| OOP | Java | Data Structure and Algorithm |',
+      image: require('../../img/LinkedStack.png'),
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'These Assignments is from Data Structure and Algorithm course, to implement check error of file by using Linked Stack, and display where the error line been., and implements by Java language and Swing framework, etc.',
+      githubUrl: 'https://github.com/ping58972/CSCI2082_Java_PA3'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Balanced BST Tree Data Structure',
+      subtitle: '| OOP | Java | Eclipse |',
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'These Assignments is from Data Structure and Algorithm course, to implement BalancedBST data structure tree, and display to GUI, and implements by Java language, etc.',
+      githubUrl: 'https://github.com/ping58972/CSCI-PA5-BalancedBST-tree'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'Sorting Algorithm GUI',
+      subtitle: '| OOP | Java | Java-Swing | Eclipse |',
+      image: require('../../img/javapa7.png'),
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'These Assignments is from OOP programming course, sorting algorithm that sort the objects of products class implements by Java language, etc.',
+      githubUrl: 'https://github.com/ping58972/Java-OOP-sorting-algorithm'
     },
     {
-      title: 'Shop and Sell Website',
-      subtitle: '| Node | Express | MongoDB |',
+      title: 'College Manager GUI',
+      subtitle: '| OOP | Java | Java-Swing | Eclipse |',
+      image: require('../../img/CollegeManager.png'),
       text:
-        '&ldquo;Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.&rdquo;',
-      image: ooh,
-      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
-      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+        'These Assignments is from OOP programming course, that implement student register class on the broad, and implements by Java language and Swing framwork, etc.',
+      githubUrl: 'https://github.com/ping58972/college-manager-pa2-java-oop'
+    },
+    {
+      title: 'All Assignments CSCI1082',
+      subtitle: '| OOP | Java | Eclipse |',
+      text:
+        'These Assignments is from OOP programming course implements by Java language, etc.',
+      githubUrl: 'https://github.com/ping58972/CSCI1082-Java-OOP-Assignments'
+    },
+    {
+      title: 'All Assignments CSCI1081',
+      subtitle: '| C/C++ | Microsoft Visual Studio 2017 |',
+      text:
+        'These Assignments is from functional programming course implements by C/C++ language, etc.',
+      githubUrl: 'https://github.com/ping58972/CSCI1081-Cpp-Assignments-all'
     }
   ];
 
