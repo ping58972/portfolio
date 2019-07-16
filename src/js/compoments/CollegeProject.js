@@ -46,6 +46,14 @@ const CollegeProject = () => {
   };
   const projects = [
     {
+      title: 'Veteran Benifits Subvey',
+      subtitle: '| Java-pdf | Java-email | Java-Maven |',
+      text:
+        'This project is to implement subvey of veteran benifits, step by step questions then answer Yes/No by using binary tree and Linked Stack, Tesing by Jave Unit 5, and implements by Maven framework like pdf and email, etc.',
+      image: require('../../img/vateran-main.png'),
+      githubUrl: 'https://github.com/ping58972/Veteran-Benifits-Subvey'
+    },
+    {
       title: 'Bank Account GUI',
       subtitle: '| OOP | Java | Java-Swing | Eclipse |',
       text:
@@ -53,7 +61,6 @@ const CollegeProject = () => {
       image: require('../../img/oop-final-login.png'),
       githubUrl: 'https://github.com/ping58972/Java-OOP-BankAccount'
     },
-
     {
       title: 'Recursion with Java OOP',
       subtitle: '| OOP | Java | Data Structure and Algorithm |',
