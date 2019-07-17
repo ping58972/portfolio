@@ -58,3 +58,14 @@ jQuery(document).ready(function($) {
     $('body,html').animate({ scrollTop: target.offset().top }, 600);
   }
 });
+
+//for whole page loading icon
+$(window).load(function() {
+  // Animate loader off screen
+  $('.se-pre-con').fadeOut('slow');
+});
+
+//for all images loading icon
+$(function() {
+  $('img').imgPreload();
+});
