@@ -1,12 +1,14 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
 import ProjectCard from './ProjectCard';
+import { params } from './swiperParams';
 
 const SlideDisplay = props => {
+  const param = props.params ? props.params : params;
   return (
     <div className='swiper-container'>
       <div className='swiper-wrapper'>
-        <Swiper {...props.params}>
+        <Swiper {...param}>
           {props.projectArray.map(project => {
             return (
               <div className='swiper-slide'>
