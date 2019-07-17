@@ -148,7 +148,7 @@ const ClientProject = () => {
       subtitle: '| HTML5 | CSS |',
       text:
         'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
-      image: require('../../img/bycicle.png'),
+      image: require('../../img/bycicle.jpg'),
       githubUrl: 'https://github.com/ping58972/responseweb-bicycle'
     }
   ];
