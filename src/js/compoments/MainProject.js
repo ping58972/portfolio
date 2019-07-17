@@ -1,8 +1,5 @@
 import React from 'react';
 import SlideDisplay from './SlideDisplay';
-import ooh from '../../img/Untitled.png';
-import evg from '../../img/evg.jpg';
-import shopImage from '../../img/shop1.png';
 
 const MianProject = () => {
   const paramsSlide = {

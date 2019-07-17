@@ -1,6 +1,5 @@
 import React from 'react';
 import SlideDisplay from './SlideDisplay';
-import ooh from '../../img/Untitled.png';
 
 const ClientProject = () => {
   const paramsSlide = {

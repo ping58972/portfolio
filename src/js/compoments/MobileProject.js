@@ -1,7 +1,5 @@
 import React from 'react';
 import SlideDisplay from './SlideDisplay';
-import pingImage from '../../img/Ping.jpg';
-import ooh from '../../img/Untitled.png';
 
 const MobileProject = () => {
   const paramsSlide = {
