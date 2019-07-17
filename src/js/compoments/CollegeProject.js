@@ -101,6 +101,14 @@ const CollegeProject = () => {
       githubUrl: 'https://github.com/ping58972/college-manager-pa2-java-oop'
     },
     {
+      title: 'All Assignments CSCI2016',
+      subtitle: '| Assembly MIPS | MARIE |',
+      text:
+        'These Assignments is from Computer Organization and Architecture course, CSCI2016 that include MARIE Simulator and MARS 4.5 software, and their codes. these Assembly MIPS language teached me about fundamental computer hardware and its architecture, etc.',
+      githubUrl:
+        'https://github.com/ping58972/Computer-Organization-Architecture'
+    },
+    {
       title: 'All Assignments CSCI1082',
       subtitle: '| OOP | Java | Eclipse |',
       text:
