@@ -46,7 +46,7 @@ const CollegeProject = () => {
   };
   const projects = [
     {
-      title: 'Veteran Benifits Subvey',
+      title: 'Veteran Benifits Survey',
       subtitle: '| Java-pdf | Java-email | Java-Maven |',
       text:
         'This project is to implement subvey of veteran benifits, step by step questions then answer Yes/No by using binary tree and Linked Stack, Tesing by Jave Unit 5, and implements by Maven framework like pdf and email, etc.',
