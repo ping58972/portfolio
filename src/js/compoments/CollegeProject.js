@@ -50,7 +50,7 @@ const CollegeProject = () => {
       subtitle: '| Java-pdf | Java-email | Java-Maven |',
       text:
         'This project is to implement subvey of veteran benifits, step by step questions then answer Yes/No by using binary tree and Linked Stack, Tesing by Jave Unit 5, and implements by Maven framework like pdf and email, etc.',
-      image: require('../../img/vateran-main.png'),
+      image: require('../../img/vateran-main.jpg'),
       githubUrl: 'https://github.com/ping58972/Veteran-Benifits-Subvey'
     },
     {
@@ -95,7 +95,7 @@ const CollegeProject = () => {
     {
       title: 'College Manager GUI',
       subtitle: '| OOP | Java | Java-Swing | Eclipse |',
-      image: require('../../img/CollegeManager.png'),
+      image: require('../../img/CollegeManager.jpg'),
       text:
         'These Assignments is from OOP programming course, that implement student register class on the broad, and implements by Java language and Swing framwork, etc.',
       githubUrl: 'https://github.com/ping58972/college-manager-pa2-java-oop'

@@ -55,7 +55,7 @@ const ClientProject = () => {
       subtitle: '| React | Redux | json-server | node-media-server |',
       text:
         'The purpose of website is for practicing React and stream api by CRUD. The website features include: creating own stream video for living stream. And can process with authentication, validation, etc.',
-      image: require('../../img/streamAll.png'),
+      image: require('../../img/streamAll.jpg'),
       githubUrl: 'https://github.com/ping58972/my-stream-react-redux'
     },
     {
@@ -83,7 +83,7 @@ const ClientProject = () => {
       subtitle: '| React | Redux |',
       text:
         'The purpose of website is for practicing React and Redux by implement React and Redux to build the compunents, etc.',
-      image: require('../../img/react-redux-practice-songs.png'),
+      image: require('../../img/react-redux-practice-songs.jpg'),
       githubUrl: 'https://github.com/ping58972/react-redux-practice-songs',
       projectUrl: 'https://ping58972.github.io/react-redux-practice-songs'
     },
@@ -112,7 +112,7 @@ const ClientProject = () => {
       subtitle: '| React | Hook |',
       text:
         'The purpose of website is for practicing React and Hook by implement fetching post and Todos for an API, etc.',
-      image: require('../../img/react-hooks-simple.png'),
+      image: require('../../img/react-hooks-simple.jpg'),
       githubUrl: 'https://github.com/ping58972/react-hooks-simple-practice',
       projectUrl: 'https://ping58972.github.io/react-hooks-simple-practice'
     },
@@ -121,7 +121,7 @@ const ClientProject = () => {
       subtitle: '| HTML | SASS | Webpack | React | JQuery | swiper |',
       text:
         'The purpose of website is for looking jobs about software engineering, web developer, and programmer. The website include: showing my resume, side projects and skill, etc.',
-      image: require('../../img/portfolio.png'),
+      image: require('../../img/portfolio.jpg'),
       githubUrl: 'https://github.com/ping58972/portfolio',
       projectUrl: 'https://ping58972.github.io/portfolio'
     },
@@ -130,7 +130,7 @@ const ClientProject = () => {
       subtitle: '| HTML | SASS | Javascript | swiper | Xd | Ps | Ai | ',
       text:
         'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
-      image: require('../../img/ResponseWeb.png'),
+      image: require('../../img/ResponseWeb.jpg'),
       githubUrl: 'https://github.com/ping58972/myportfolio',
       projectUrl: 'https://ping58972.github.io/myportfolio/'
     },
@@ -139,7 +139,7 @@ const ClientProject = () => {
       subtitle: '| HTML5 | SASS | Javascript |',
       text:
         'The purpose of website is for practice front-end skill with vary technology. And practice how to design a website page, etc.',
-      image: require('../../img/responseWeb_Tra.png'),
+      image: require('../../img/responseWeb_Tra.jpg'),
       githubUrl: 'https://github.com/ping58972/practice-web-response',
       projectUrl: 'https://ping58972.github.io/practice-web-response/'
     },

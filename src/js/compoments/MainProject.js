@@ -58,7 +58,7 @@ const MianProject = () => {
       subtitle: '| Node | Express | MongoDB |',
       text:
         'Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.',
-      image: require('../../img/shop1.png'),
+      image: require('../../img/shop1.jpg'),
       githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
       projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
     },
