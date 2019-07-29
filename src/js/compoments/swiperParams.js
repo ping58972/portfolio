@@ -10,6 +10,10 @@ export const paramsEffect = {
     modifier: 1,
     slideShadows: true
   },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: true
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -18,8 +22,8 @@ export const paramsEffect = {
     }
   },
   navigation: {
-    nextEl: '.swiper-button-prev',
-    prevEl: '.swiper-button-next'
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
   },
   breakpoints: {
     2510: {
@@ -60,9 +64,13 @@ export const params = {
       return '<span class="' + className + '">' + (index + 1) + '</span>';
     }
   },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: true
+  },
   navigation: {
-    nextEl: '.swiper-button-prev',
-    prevEl: '.swiper-button-next'
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
   },
   breakpoints: {
     2510: {
