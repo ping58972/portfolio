@@ -4,6 +4,19 @@ import SlideDisplay from './SlideDisplay';
 const ClientProject = () => {
   const projects = [
     {
+      title: 'Post Message APP',
+      subtitle: '| React | Socket | Node | Express | MongoDB |',
+      text:
+        'This project is the single page that build by React and fetch all data by web server  using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai',
+      image: require('../../img/messageNode.png'),
+      githubUrl:
+        'https://github.com/ping58972/react-restful-api-basic-socket-io',
+      serverUrl:
+        'https://github.com/ping58972/testing-node-rest-api-mocha-chai',
+      projectUrl:
+        'https://ping58972.github.io/react-restful-api-basic-socket-io'
+    },
+    {
       title: 'My Stream Video',
       subtitle: '| React | Redux | json-server | node-media-server |',
       text:

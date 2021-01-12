@@ -4,6 +4,13 @@ import SlideDisplay from './SlideDisplay';
 const CollegeProject = () => {
   const projects = [
     {
+      title: 'Restuarant Database Management',
+      subtitle: '| Java Swing | MySQL | JDBC |',
+      text: "Computer Science major class: ICS 311 — Database Implementation on MySQL by Java and JDBC",
+          image: require('../../img/mysql.png'),
+      githubUrl: 'https://github.com/ping58972/ICS311_restuarantAPP'
+    },
+    {
       title: 'Veteran Benifits Survey',
       subtitle: '| Java-pdf | Java-email | Java-Maven |',
       text:

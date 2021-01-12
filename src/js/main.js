@@ -22,7 +22,7 @@ import CollegeProject from './compoments/CollegeProject';
 library.add(faTwitter, faLinkedinIn, faGithub, faEye, faFilePdf, faServer);
 dom.watch();
 
-ReactDOM.render(<MianProject />, document.querySelector('#main-project'));
+ReactDOM.render(<MianProject />, document.querySelector('#ml-dl-project'));
 ReactDOM.render(<ClientProject />, document.querySelector('#client-project'));
 ReactDOM.render(<ServerProject />, document.querySelector('#server-project'));
 ReactDOM.render(<MobileProject />, document.querySelector('#mobile-project'));

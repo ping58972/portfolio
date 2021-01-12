@@ -4,6 +4,36 @@ import SlideDisplay from './SlideDisplay';
 const ServerProject = () => {
   const projects = [
     {
+      title: 'Fight Search API Server',
+      subtitle: '| Java | Spring Boot | RestFul API | Microservices |',
+      text:
+        "This Project build for Airline Search APP by using"+
+        " Java server side technology, Spring Boot to creat Restfil Api. this is the part of project which using Micro-services to handle and deploy by Docker.",
+      // image: require('../../img/shop1.jpg'),
+      githubUrl: 'https://github.com/ping58972/unitedairline-search-app-server/tree/master/flight-search'
+    },
+    {
+      title: 'Clinic Management',
+      subtitle: '| Java | JDBC | JSP | Tomcat server | Servlet |',
+      text:
+        "Java - core Java se8."+
+        "JSP - java service page for dynamic web page."+
+        "Servlet - Used to implement web server with java."+
+       " JDBC - java database connectivity API for connect with MySQL."+
+        "Tomcat server - run server side for render web page.",
+       // image: require('../../img/shop1.jpg'),
+      githubUrl: 'https://github.com/ping58972/clinic-management'
+    },
+    {
+      title: 'Shop and Sell Website',
+      subtitle: '| Node | Express | MongoDB |',
+      text:
+        'Features: creating own product for selling or looking buy some products. processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc.',
+      image: require('../../img/shop1.jpg'),
+      githubUrl: 'https://github.com/ping58972/node-deploy-shopping-server',
+      projectUrl: 'https://node-deploy-shopping-server.herokuapp.com'
+    },
+    {
       title: 'Message Post GraphQL API',
       subtitle: '| Node | Express | MongoDB | GraphQL | Nodemon |',
       text:
