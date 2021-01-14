@@ -39,6 +39,38 @@ const MianProject = () => {
         'https://github.com/ping58972/LogisticRegression_practice'
     },
     {
+      title: 'Identify Cat Picture',
+      subtitle: 'Logistic Regression with a Neural Network',
+      text:
+        " given a dataset ('data.h5') containing: - a training set of m_train images labeled as cat (y=1) or non-cat (y=0) - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB). Thus, each image is square (height = num_px) and (width = num_px)."
+       , image: require('../../img/cat.png'),
+      githubUrl:
+        'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week2/Logistic%20Regression%20as%20a%20Neural%20Network'
+    },
+    {
+      title: 'Planar Data Classification',
+      subtitle: 'Classification with one hidden layer',
+      text:
+        "Implement a 2-class classification neural network with a single hidden layer"+
+        "Use units with a non-linear activation function, such as tanh"+
+        "Compute the cross entropy loss"+
+        "Implement forward and backward propagation"
+        , image: require('../../img/Planar.png'),
+      githubUrl:
+        'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer'
+      },
+      {
+        title: 'Building Deep Neural Network',
+        // subtitle: 'Classification with one hidden layer',
+        text:
+          "Use non-linear units like ReLU to improve your model"+
+          "Build a deeper neural network (with more than 1 hidden layer)"+
+          "Implement an easy-to-use neural network class"
+          , image: require('../../img/outline.png'),
+        githubUrl:
+          'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week4/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step'
+          },
+    {
       title: 'Machine Learning Certificate',
       subtitle: 'Certificate Course on Coursera',
       // text: 'Coming Soon',
