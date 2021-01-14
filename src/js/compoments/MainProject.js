@@ -8,17 +8,11 @@ const MianProject = () => {
       title: 'Predict Profits and Prices',
       subtitle: '| Linear Regression Algorithm | Numpy | Jupyter |',
       text:
-        'First, Implement linear regression with' 
-        +'one variable to predict profits for a food truck. Considering different '+
-        'cities for opening a new outlet. The chain already has trucks in various '+
-        'cities and have data for profits and populations from the cities. '
-        +'Using this data to help you select which city to expand to next.'
-        +'Second Implement linear regression'+
-        ' with multiple variables to predict the prices of houses. Suppose you are '+
-        'selling your house and wanting to know what a good market price would be.'+
-        ' One way to do this is to first collect information on recent houses sold'+
-        ' and make a model of housing prices.',
-      // image: require('../../img/shop1.jpg'),
+        'First, linear regression with' +
+        'one variable to predict profits for a food truck. '+
+        'Second, linear regression'+
+        ' with multiple variables to predict the prices of houses. wanting to know what a good market price would be.',
+      image: require('../../img/lr1.png'),
       githubUrl: 'https://github.com/ping58972/LinearRegression_Practice'
     },
     {
@@ -26,27 +20,64 @@ const MianProject = () => {
       subtitle: '| Logistic Regression Algorithm | Numpy | scipy |',
       text:
         " Build a logistic regression model to predict whether a student gets admitted "+
-        "into a university. Determine each applicant's chance of admission based on their"+
-        " results on two exams. "+
-        "Build a classification model that estimates an applicant's probability of "+
-        "admission based the scores from those two exams."
+        "into a university. "
         +"Second, Implement regularized logistic regression to predict whether microchips "+
-        "from a fabrication plant passes quality assurance (QA). "+
-        "From these two tests,"+
-        " to determine whether the microchips should be accepted or rejected. To help making the decision."
-        // image: require('../../img/messageNode.png'),
-     , githubUrl:
+        "from a fabrication plant passes quality assurance (QA). ",
+        image: require('../../img/lr2.png'),
+      githubUrl:
         'https://github.com/ping58972/LogisticRegression_practice'
     },
     {
       title: 'Identify Cat Picture',
       subtitle: 'Logistic Regression with a Neural Network',
       text:
-        " given a dataset ('data.h5') containing: - a training set of m_train images labeled as cat (y=1) or non-cat (y=0) - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB). Thus, each image is square (height = num_px) and (width = num_px)."
+        "Dataset ('data.h5'): - a training set of m_train images labeled as cat (y=1) or non-cat (y=0) - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3) where 3 is for the 3 channels (RGB)."
        , image: require('../../img/cat.png'),
       githubUrl:
         'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week2/Logistic%20Regression%20as%20a%20Neural%20Network'
     },
+    {
+      title: 'Identify Cat Picture By DNN',
+      subtitle: 'Identify Cat Picture by Deep Neural Network',
+      text:"Build and apply a deep neural network to supervised learning."
+         , image: require('../../img/LlayerNN.png'),
+      githubUrl:
+        'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week4/Deep%20Neural%20Network%20Application%20Image%20Classification'
+       },
+       {
+        title: 'Identify Hand Number by CNN',
+        subtitle: 'Convolutional Neural Networks',
+        text:"Implement helper functions by implementing a TensorFlow model"+
+
+        "Implement a fully functioning ConvNet using TensorFlow"+
+        
+        "Build and train a ConvNet in TensorFlow for a classification problem"
+           , image: require('../../img/2.png'),
+        githubUrl:
+          'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week1/Convolutional%20Model%20-%20application'
+         },
+         {
+          title: 'Identify Hand Number by RN',
+          subtitle: 'Residual Networks',
+          text:"Implement the basic building blocks of ResNets."+
+          "Put together these building blocks to implement and train"+ 
+          "a state-of-the-art neural network for image classification."
+             , image: require('../../img/2_rn.png'),
+          githubUrl:
+            'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week2/ResNets'  
+          },
+          {
+            title: 'Autonomous driving - Car detection',
+            subtitle: 'YOLO model',
+            text:"About object detection using the very powerful YOLO model. "+
+            "Many of the ideas in this notebook are described in the two YOLO papers:"+ 
+            "Redmon et al., 2016 and Redmon and Farhadi, 2016."+
+            "Use object detection on a car detection dataset"+
+            "Deal with bounding boxes"
+               , image: require('../../img/box_label.png'),
+            githubUrl:
+              'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week3/Car%20detection%20with%20YOLO'
+            },
     {
       title: 'Planar Data Classification',
       subtitle: 'Classification with one hidden layer',
@@ -60,6 +91,40 @@ const MianProject = () => {
         'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer'
       },
       {
+        title: 'Face Recognition',
+        subtitle: 'Face Verification | Face Recognition',
+        text:
+          "Implement the triplet loss function"+
+          "Use a pretrained model to map face images into 128-dimensional encodings"+
+          "Use these encodings to perform face verification and face recognition"
+          , image: require('../../img/distance_kiank.png'),
+        githubUrl:
+          'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Face%20Recognition'
+             },
+             {
+              title: 'Deep Learning & Art',
+              subtitle: 'Neural Style Transfer',
+              text:
+                "Implement the neural style transfer algorithm"+
+                "Generate novel artistic images using your algorithm"
+                , image: require('../../img/louvre_generated.png'),
+              githubUrl:
+                'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer'
+                },
+                {
+                  title: 'Emojify',
+                  subtitle: 'Sequence Models',
+                  text:
+                    "Congratulations on the promotion! Let's get coffee and talk. Love you!"+
+
+                   " The emojifier can automatically turn this into:"+
+                    
+                    "Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️"
+                    , image: require('../../img/data_set.png'),
+                  githubUrl:
+                    'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Sequence%20Models/Week2/Emojify'
+                       },
+      {
         title: 'Building Deep Neural Network',
         // subtitle: 'Classification with one hidden layer',
         text:
@@ -70,6 +135,16 @@ const MianProject = () => {
         githubUrl:
           'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week4/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step'
           },
+          {
+            title: 'Jazz Solo with LSTM',
+            subtitle: 'Improvise a Jazz Solo with an LSTM Network',
+            text:
+              "Apply an LSTM to music generation."+
+              "Generate your own jazz music with deep learning."
+              , image: require('../../img/jazz.jpg'),
+            githubUrl:
+              'https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Sequence%20Models/Week1/Jazz%20improvisation%20with%20LSTM'    
+            },
     {
       title: 'Machine Learning Certificate',
       subtitle: 'Certificate Course on Coursera',
